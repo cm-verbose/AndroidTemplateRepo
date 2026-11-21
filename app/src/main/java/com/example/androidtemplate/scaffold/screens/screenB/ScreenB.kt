@@ -6,7 +6,7 @@ import androidx.compose.runtime.Composable
 import kotlinx.serialization.Serializable
 
 @Serializable
-object ScreenBDestination;
+object ScreenBDestination
 
 @Composable
 fun ScreenB(onNavigateA: () -> Unit) {
