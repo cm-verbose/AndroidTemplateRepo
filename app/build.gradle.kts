@@ -70,8 +70,18 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     androidTestImplementation(libs.androidx.navigation.testing)
 
-    /* Material extended Icons */
+    /* LiteRT */
+    implementation(libs.litert)
+    implementation(libs.litert.gpu)
+
+    /* Material Icons (Extended) */
     implementation(libs.androidx.compose.material.icons.extended)
+
+    /* Material 3 adaptive */
+    implementation(libs.androidx.compose.adaptive)
+    implementation(libs.androidx.compose.adaptive.layout)
+    implementation(libs.androidx.compose.adaptive.navigation)
+    implementation(libs.androidx.compose.adaptive.navigation3)
 
     /* Retrofit */
     implementation(libs.retrofit)
